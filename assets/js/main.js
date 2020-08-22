@@ -18,7 +18,7 @@ anime({
 $(document).ready(function () {
     $('.preloader').delay(7500).fadeOut('slow');
 
-    $.getJSON("https://api.countapi.xyz/hit/eni4sure.github.io-tester", function (data) {
+    $.getJSON("https://api.countapi.xyz/hit/eni4sure.github.io-v0", function (data) {
         page_view_no = data.value;
     });
 
